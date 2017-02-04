@@ -29,7 +29,7 @@ namespace MvcMusicStoreTBD.Models
         [System.ComponentModel.DataAnnotations.Compare("Password")]
         [AmbientValue(true)]
         public virtual string PasswordComp { get; set; }
-        [DataType(DataType.Date)]
+        [DataType(DataType.DateTime)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public virtual DateTime BirthDay { get; set; }
         [StringLength(30)]

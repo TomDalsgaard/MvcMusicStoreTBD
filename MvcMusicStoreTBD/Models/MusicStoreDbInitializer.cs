@@ -55,6 +55,25 @@ namespace MvcMusicStoreTBD.Models
             //    Password="ppp"
             //});
 
+            context.Users.Add(new User
+            {
+                FirstName = "Otto",
+                LastName = "Nielsen",
+                UserName = "Otto",
+                Password = "ppp",
+                PasswordComp = "ppp"
+                ,BirthDay = DateTime.Parse("1979-10-05")
+            });
+
+            context.Users.Add(new User
+            {
+                FirstName = "Hans Christian"
+                ,LastName = "Greve"
+                ,UserName = "Hans"
+                ,Password = "ppp"
+                ,PasswordComp = "ppp"
+                ,BirthDay = DateTime.Parse("1965-12-05")
+            });
 
             base.Seed(context);
         }

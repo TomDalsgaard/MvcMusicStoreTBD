@@ -14,7 +14,11 @@ namespace MvcMusicStoreTBD.Models
         // automatically whenever you change your model schema, please use data migrations.
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
-    
+
+
+        //PM> Enable-Migrations -ContextTypeName MvcMusicStoreTBD.Models.MusicStoreDBContext //To generate configurations Seed
+
+
         public MusicStoreDBContext() : base("name=MusicStoreDBContext")
         {
         }
