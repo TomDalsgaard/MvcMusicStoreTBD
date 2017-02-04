@@ -45,7 +45,7 @@ namespace MvcMusicStoreTBD.Migrations
                     ,HashStr = "r3-TD3oerD72hD-c.ewq"
                 });
 
-
+            //base.Seed(context);
         }
     }
 }
